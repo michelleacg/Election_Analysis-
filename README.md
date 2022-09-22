@@ -1,63 +1,41 @@
 # Election_Analysis-
 
-# kickstarter-analysis
-
 #An Analysis of Kickstarter Campaigns
 
-# Kickstarting with Excel
+## Project Overview 
 
-## Overview of Project
+A Colorado Board of Elections employee has given you the following tass to complete the election audit of a recent local congressional election.
 
-### Purpose
+  1. Calculate the total number of votes cast.
+  2. Get a complete list of candidates who received votes.
+  3. Calculate the total number of votes each candidate received.
+  4. Calculate the percentage of votes each candidate won.
+  5. Determine the winner of the election based on popular vote.
 
 The purpose of the Kickstarter Analysis is to help Louise make informed decisions for her theater campaign fundraising by analyzing historical data to find trends from the crowdfunding platform Kickstarter, where project creators add incentives for different pledge amounts. 
 
-## Analysis and Challenges
+## Resources
 
-### Analysis of Outcomes Based on Launch Date
-
-The month that launched the most successful Kickstarter campaigns was May. 
-We can see the  trend for theater where there is a spike of successful campaigns that began in May, but at the end of the year the sucess begins to be reduced.
-In conclusion May seems to be a good month to launch a campaign.
-
-![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/111101012/184460746-fb5ec81c-e6b3-4a65-bc74-17438b91fde6.png)
-
-### Analysis of Outcomes Based on Goals
-
-Failed campaigns have much higher fundraising goals than successful campaigns. 
-The most successful campaigns have a goal that is less than 1,000.
-
-![Outcomes_vs_Goals](https://user-images.githubusercontent.com/111101012/184795060-a73a7ea4-6863-4cdc-b744-f9b4edfc7aba.png)
-
-### Challenges and Difficulties Encountered
-
-When so much data is available, it can go many ways. With Louise's case, she wanted to explore plays in the US, and she also wanted to explore specific plays in Edingburg. There are multiple answers, to multiple questions, and the issue becomes to understand what can be relevant to present.
-
-## Results
-
-**- What are two conclusions you can draw about the Outcomes based on Launch Date?**
-
-  1. The most campaigns succeeded in May, which is also when the most campaigns failed, however this is the month that had the most campaigns launched, and      the trend continues in the following months, decreasing all the way to October. 
-  2. The least campaigns succeded in December, but also not many campaigns were launched, as this is the month that had the least campaigns launched. 
-    
-**- What can you conclude about the Outcomes based on Goals?**
-
-     The higher the goals, the more the campaigns failed, 
-     so having a more conservative goal there will be more chances to succeed
-    
-**- What are some limitations of this dataset?**
-
-    The dataset could probably include demographics, 
-    which would give Louise a better idea of the audience she needs to target for her campaign.
-    
-**- What are some other possible tables and/or graphs that we could create?**
-
-    1. Different Campaign categories per year
-    2. Average donation trend
-    3. Success rate per category and/or sub-category
-    4. Success rate per country
-    5. Delta between goal amount, and pledged amount.
-    
-    
+- Data Source: election_results.csv
+- Software: Python 3.7.6, Visual Studio Code, 1.71.2
 
 
+## Summary
+
+The analysis of the election show that:
+
+  - There were 369,711 votes cast in the election.
+  - The candidates were:
+     -  Charles Casper Stockham
+     -  Diana DeGette
+     -  Raymon Anthony Doane
+  - The candidates results were:
+     -  Charles Casper Stockham received 23.0% of the vote and 85,213 votes
+     -  Diana DeGette received 73.8% of the vote and 272,892 votes
+     -  Raymon Anthony Doane received 3.1% of the vote and 11,606 votes
+  - The winner of the election was: 
+     - Diana DeGette received 73.8% of the vote and 272,892 votes
+
+## Challenge Overview
+
+## Challenge Summary
