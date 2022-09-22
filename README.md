@@ -72,8 +72,7 @@ winning_county = ""
 winning_county_count = 0
 winning_county_percentage = 0
 
-#Read the csv and convert it into a list of dictionaries
-with open(file_to_load) as election_data:
+#Read the csv and convert it into a list of dictionaries with open(file_to_load) as election_data:
     reader = csv.reader(election_data)
 
     # Read the header
@@ -198,6 +197,8 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write(winning_candidate_summary)
 
     #TheEnd
+    
+![Screen Shot 2022-09-22 at 10 17 23 AM](https://user-images.githubusercontent.com/111101012/191810887-ec6f24a6-0972-4ea7-b2df-3c30d2ef82aa.png)
 
 ## Election-Audit Summary: 
 
