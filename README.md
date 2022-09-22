@@ -6,7 +6,7 @@
 
 The purpose of this election audit analysis is to help Seth and Tom, member of the board of elections to audit a US Congressional precinct in Colorado. The task is to report the total of votes, the total of votes per candidate, the percentage of votes each candidate received, and the winner of the election based on the popular vote. Once this code is proofed to work, it will be used in other Senatorial Discticts and Local Elections. 
 
-## Resources
+## Resources:
 
 - Data Source: election_results.csv
 - Software: Python 3.7.6, Visual Studio Code, 1.71.2
@@ -37,7 +37,7 @@ Election Outcomes:
   - Winning Vote Count: 272,892
   - Winning Percentage: 73.8%
 
-# **Code:**
+#Code:
 
 #-*- coding: UTF-8 -*-
 """PyPoll Homework Challenge Solution."""
@@ -71,7 +71,6 @@ winning_percentage = 0
 winning_county = ""
 winning_county_count = 0
 winning_county_percentage = 0
-
 #Read the csv and convert it into a list of dictionaries with open(file_to_load) as election_data:
     reader = csv.reader(election_data)
 
@@ -115,7 +114,6 @@ winning_county_percentage = 0
 
         # 5: Add a vote to that county's vote count.
         county_votes[county_name] += 1
-
 #Save the results to our text file.
 with open(file_to_save, "w") as txt_file:
 
